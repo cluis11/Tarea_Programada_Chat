@@ -1,15 +1,3 @@
-/*
-* Integrantes del equipo:
-*			Pablo Camarillo Ramírez.
-*			Diego Filloy.
-*			Marco Antonio Garcia Bautista.
-*			Demian Gaxiola Valles.
-* Fecha: 28 de Septiembre de 2010.
-* Redes de Computadora.
-* Descripción:	Práctica No. 6. Aplicación cliente que envía un archivo
-* 		hacia un proceso servidor.
-*/
- 
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -18,7 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-
 #define BUFFSIZE 1
 #define	ERROR	-1
 #define	PUERTO	1100
@@ -90,4 +77,3 @@ int main(){
 
 	return 0;
 }
-

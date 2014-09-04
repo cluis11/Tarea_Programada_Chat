@@ -1,6 +1,7 @@
 
 all: Servidor, Cliente
 
+
 CPPFLAGS = -g -I.
 
 Servidor : server.c
