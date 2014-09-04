@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-
 #define BUFFSIZE 1
 #define	ERROR	-1
 #define	PUERTO	1100
