@@ -7,11 +7,11 @@
 -#include <stdlib.h>		
 -#include <string.h>		
 -#include <unistd.h>		
--		
 -#define BUFFSIZE 1		
 -#define	ERROR	-1		
 -#define	PUERTO	1100		
--		
+
+
 -int main(){		
 -	struct sockaddr_in stSockAddr;		
 -	int sockLen;		
@@ -31,6 +31,7 @@
 -		exit(EXIT_FAILURE);		
 -	}		
 -		
+-
 -	/*Se configura la dirección del socket del cliente*/		
 -	memset(&stSockAddr, 0, sizeof stSockAddr);		
 - 		
@@ -79,4 +80,4 @@
 -		
 -	return 0;		
 -}		
--
+
